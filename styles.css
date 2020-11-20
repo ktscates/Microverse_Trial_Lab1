@@ -3,6 +3,8 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: monospace;
+    font-size: large;
 }
 
 #container {
@@ -12,4 +14,27 @@ body {
     text-align: center;
     border-radius: 5%;
     box-shadow: 5px 10px 8px 10px #888888;
+}
+#name{
+    height: 20px  ;
+    width: 200px;
+}
+#email{
+    height: 20px  ;
+    width: 200px;
+}
+#number{
+    height: 20px  ;
+    width: 200px;
+}
+#dropdown{
+    height: 20px  ;
+    width: 200px;
+}
+#submit{
+    height: 40px  ;
+    width: 200px;
+    background-color: green;
+    color: white;
+    border-radius:10px ;
 }
