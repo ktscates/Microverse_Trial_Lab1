@@ -8,23 +8,42 @@
 <body>
     <h1 id="title">Survey Form</h1>
     <p id="description">Thank you for helping us filling this form</p>
-
     <form id="survey-form">
         <label id="name-label">Name</label>
         <input type="text" name="name" id="name" placeholder="Enter your name..." required>
-
+        <br>
         <Label id="email-label">Email</Label>
         <input type="email" name="email" id="email" placeholder="Enter your emal..." required>
-
+        <br>
         <label id="number-label">Age</label>
         <input type="number" name="number" id="number" placeholder="18 - 40" min="18" max="40">
-
+        <br>
         <Label id="dropdown-label">Gender</Label>
         <select name="dropdown" id="dropdown">
             <option value="male">Male</option>
             <option value="female">Female</option>
         </select>
-
+        <br>
+        <h3>marital status</h3>
+        <input type="radio" id="single" name="marital" value="single">
+        <label >Single</label><br>
+        <input type="radio" id="married" name="marital" value="married">
+        <label >Married</label><br>
+        <input type="radio" id="divorced" name="marital" value="divorced">
+        <label >Divorced</label>
+        <br>
+        <h3>courses</h3>
+        <input type="checkbox" id="python" name="course" value="python">
+        <label >Python</label><br>
+        <input type="checkbox" id="java" name="course" value="java">
+        <label >Java</label><br>
+        <input type="checkbox" id="javascript" name="course" value="javascript">
+        <label >Javascript</label>
+        <br>
+        <h3>write a comment</h3>
+        <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="leave a comment"></textarea>
+        <br>
+        <input type="submit" value="Submit" name="submit">
     </form>
 
 </body>
