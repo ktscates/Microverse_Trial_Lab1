@@ -1,0 +1,15 @@
+body {
+    background-image: url("./img/image.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    background-color: bisque;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
